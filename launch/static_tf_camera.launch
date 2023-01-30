@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<launch>
+
+   <node pkg="tf2_ros" 
+         type="static_transform_publisher" 
+         name="camera_frame" 
+         args="0.0 0.0 0.0 0.0 0.0 0.0 0.0 base_frame camera_frame" >
+         <param name="rate" value="1000"/>
+   </node> 
+
+</launch>
